@@ -1,0 +1,127 @@
+.container {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  font-family: "Noto Sans Display", sans-serif;
+}
+.first-color {
+  background: #5585b5;
+}
+
+.second-color {
+  background: #53a8b6;
+}
+
+.third-color {
+  background: #79c2d0;
+}
+
+.fourth-color {
+  background: #bbe4e9;
+}
+
+#cityInput {
+  margin-left: 110px;
+  border-color: #5585b5;
+  border-width: 4px;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 2px 60px;
+}
+.container #currentButton {
+  display: block;
+  margin-left: 185px;
+  border-color: rgb(13, 209, 243);
+  border-width: 4px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 4px 5px;
+  font-size: 15px;
+  position: relative;
+  bottom: 38px;
+  left: 40px;
+}
+#searchbutton {
+  display: block;
+  margin-left: 110px;
+  border-color: #5585b5;
+  border-width: 4px;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 3px 20px;
+  font-size: 16px;
+}
+.container #cityHeader {
+  text-align: center;
+  font-size: 80px;
+  color: #5585b5;
+  padding-bottom: 0px;
+}
+
+.container .timeNow {
+  color: rgba(1, 1, 65, 0.664);
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+  position: relative;
+  bottom: 15px;
+}
+.current {
+  border: 4px solid #5585b5;
+  margin: 0 300px;
+  border-radius: 30px;
+  background-color: #bbe4e9;
+  box-shadow: #79c2d0 0 10px 10px 0;
+  text-align: center;
+}
+
+.current .ctoF a {
+  display: inline;
+  text-align: center;
+  color: rgba(1, 1, 65, 0.664);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.current .currentTemp {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #53a8b6;
+}
+.current .tempIcon {
+  text-align: center;
+  font-size: 80px;
+}
+.container p {
+  text-align: center;
+  color: #53a8b6;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.forecast h3 {
+  margin-left: 110px;
+  color: #53a8b6;
+  font-size: 30px;
+}
+.container .row {
+  border: 3px solid #5585b5;
+  padding: 15px;
+  margin: 0 110px;
+  border-radius: 10px;
+  background-color: rgba(205, 223, 247, 0.5);
+}
+.container .col {
+  text-align: center;
+  border: 4px solid #5585b5;
+  margin: 8px;
+  border-radius: 15px;
+  padding: 10px 1px;
+  background-color: #bbe4e9;
+  box-shadow: #79c2d0 0 5px 5px 0;
+}
