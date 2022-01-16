@@ -74,13 +74,13 @@
 }
 .current {
   border: 4px solid #5585b5;
-  margin: 0 300px;
+  margin: 0 400px;
   border-radius: 30px;
   background-color: #bbe4e9;
   box-shadow: #79c2d0 0 10px 10px 0;
   text-align: center;
+  padding-bottom: 20px;
 }
-
 .current .ctoF a {
   display: inline;
   text-align: center;
@@ -90,7 +90,7 @@
 }
 .current .currentTemp {
   text-align: center;
-  font-size: 60px;
+  font-size: 75px;
   font-weight: bold;
   color: #53a8b6;
 }
@@ -98,11 +98,25 @@
   text-align: center;
   font-size: 80px;
 }
+
+#humidity {
+  text-align: left;
+  padding: 50px;
+  color: rgba(1, 1, 65, 0.664);
+  font-weight: bolder;
+}
+#wind {
+  text-align: right;
+  padding: 50px;
+  color: rgba(1, 1, 65, 0.664);
+  font-weight: bolder;
+}
 .container p {
   text-align: center;
   color: #53a8b6;
   font-size: 30px;
   font-weight: bolder;
+  text-transform: capitalize;
 }
 .forecast h3 {
   margin-left: 110px;
